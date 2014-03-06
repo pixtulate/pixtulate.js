@@ -4,6 +4,8 @@ Pixtulate.js is a JavaScript to automatically scale, crop and optimize responsiv
 
 All you need to do is to include the script in your page, markup an img element with a data-src attribute and a single high resolution source images.
 
+Before using the script, please <a href="http://www.pixulate.com/signup">sign up</a> to process images with <a href="http://www.pixtulate.com">Pixtulate</a>.
+
 <h2>Quick Start</h2>
 
 Signature:
@@ -30,6 +32,12 @@ Make an image responsive:
 
 <h2>Overview</h2>
 Responsive images depend on the the layout dictating the image's size. The script will determine the image's dimensions by measuring the image container's CSS pixel width and height. Additionally, it determines the screen's pixel density and the viewport's height and width. Please see the <a href="http://www.pixtulate.com/docs">documentation</a> for more information on query paramters.
+
+The Pixtulate host will be automatically prefixed to your relative image's path as 
+```
+http://mydomain.api.pixtulate.com
+```
+If your image's src path already contains a host, and you have set the replaceHost parameter to true, your host will be replaced with that of Pixtulate's.  
 
 You can still keep the src attribute of the img element, but remember it will be pre-loaded by the browser at page load so make it something which can be cached and re-used from browser cache, i.e a single pixel transparant .png. By omitting the src attribute, you prevent double loading images. Naturally, your src image can also be served by Pixtulate.
 
