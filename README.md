@@ -66,6 +66,18 @@ The script is also compatible with Pixtulate's <a href="http://wwww.pixtulate.co
 
 You can enter and lock down any query parameter outlined in the documentation.
 
+<h2>Using With Require</h2>
+We have included a module that can be use with require.  Simply download and include the pixtulate.require.js or the minified version pixtulate.require.min.js.  You can then use this module as follows:
+
+```html
+<script src="pixtulate.require.js"></script>
+<script>
+	require(['pixtulate'], function(pixtulate){
+		pixtulate.pixtulate("mydomain", true, true);
+	};
+</script>
+```
+
 <h4>Note</h4>
 This script will only work if your image's dimensions can be determined by the sizing of its container. Layouts which flow depending on the size of their images are not compatible with this script.
 
