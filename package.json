@@ -1,0 +1,31 @@
+{
+  "name": "pixtulate.js",
+  "version": "1.0.0",
+  "description": "Pixtulate Wrapper Script",
+  "main": "pixtulate.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixtulate/pixtulate.js.git"
+  },
+  "keywords": [
+    "image",
+    "scale",
+    "resolution",
+    "automatic"
+  ],
+  "author": "Krzysztof Karski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pixtulate/pixtulate.js/issues"
+  },
+  "homepage": "https://github.com/pixtulate/pixtulate.js",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.9.2",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-wrap": "~0.3.0"
+  }
+}
