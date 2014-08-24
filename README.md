@@ -1,6 +1,6 @@
 <h1>Pixtulate.js</h1>
 
-Pixtulate.js is a JavaScript to automatically scale, crop and optimize responsive images via <a href="http://www.pixtulate.com">Pixtulate's</a> backend image service - on the fly. 
+Pixtulate.js is a JavaScript to automatically determie the correct responsive size of images and then scale, crop and optimize them via <a href="http://www.pixtulate.com">Pixtulate's</a> backend image service - on the fly. 
 
 All you need to do is to include the script in your page, markup an img element with a data-src attribute and a single high resolution source images.
 
