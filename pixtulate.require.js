@@ -1,3 +1,5 @@
+define(function () {
+ 
 /**
  * @author Gregory Willis
  *
@@ -159,3 +161,7 @@ function pixtulate(domainName, modifyURL, constrainDimensions) {
         }
     }
 }
+
+return{
+pixtulate: pixtulate
+}});
